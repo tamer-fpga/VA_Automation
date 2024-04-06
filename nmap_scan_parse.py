@@ -41,6 +41,7 @@ def parse_nmap_xml_report(xml_file):
 excel_file_path = '/home/kali/VA/Target_servers_IPs.xls'
 output_directory = '/home/kali/VA/'
 
+
 # Main process
 if __name__ == '__main__':
     server_ips = read_ips_from_excel(excel_file_path)
